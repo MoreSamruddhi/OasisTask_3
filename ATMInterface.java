@@ -1,12 +1,6 @@
 import java.util.Scanner;
-import java.util.HashMap;
 
 public class ATMInterface {
-    public SimplifiedATM() {
-        accounts = new HashMap<>();
-        accounts.put("user1", 1000.0);
-        accounts.put("user2", 1500.0);
-    }
     public static void main(String[]args)
     {
         System.out.println("____________Welcome to ATM Interface____________");
